@@ -1,0 +1,8 @@
+a = int(input("Enter value of a:\n"))
+b = int(input("Enter value of b:\n"))
+
+c = a
+a = b
+b = c
+
+print("now, a={} and b={}".format(a, b))
